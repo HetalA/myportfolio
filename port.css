@@ -1,0 +1,53 @@
+h1{
+    font-family: 'Lobster', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 100px!important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bgimg{
+    background-image: url("b.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgtext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+p{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+}
+.lnk a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ft{
+    color: black;
+    align-content: center;
+}
+ul{
+    overflow:hidden;
+}
+li{
+    display:inline-block;
+    color: black;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 3px;
+}
